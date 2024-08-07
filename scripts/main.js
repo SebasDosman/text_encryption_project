@@ -29,7 +29,9 @@ const decryptText = text => {
     return result;
 };
 
-const validateInput = text => /^[a-z\s]+$/.test(text);
+const validateInput = text => {
+    /^[a-z\s]+$/.test(text);
+};
 
 const showBanner = message => {
     const banner = getElementById('banner');
